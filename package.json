@@ -1,0 +1,33 @@
+{
+  "name": "a11y-lawsuits",
+  "version": "1.0.0",
+  "description": "Demo of using Grunt with Tenon.io",
+  "keywords": [
+    "accessibility"
+  ],
+  "homepage": "https://github.com/karlgroves/a11y-lawsuits",
+  "bugs": "https://github.com/karlgroves/a11y-lawsuits/issues",
+  "author": {
+    "name": "Karl Groves",
+    "email": "karlgroves@gmail.com",
+    "url": "https://github.com/karlgroves"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karlgroves/a11y-lawsuits.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-convert": "^0.1.12",
+    "grunt-jsonlint": "^1.0.7",
+    "jshint-stylish": "^2.1.0",
+    "load-grunt-tasks": "^3.4.0",
+    "time-grunt": "^1.3.0"
+  }
+}
