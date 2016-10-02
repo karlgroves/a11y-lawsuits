@@ -1,0 +1,31 @@
+body {
+    padding: 1em;
+}
+
+body, td, th {
+    font-family: Georgia;
+    font-size: 1em;
+}
+
+table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    padding: .5em;
+    border-bottom: 1px solid #aaa;
+}
+
+thead th {
+    font-weight: bold;
+}
+
+tbody th {
+    font-weight: normal;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eee;
+}
