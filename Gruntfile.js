@@ -30,11 +30,19 @@ module.exports = function (grunt) {
         /* Run JSONLint on our configuration files */
         jsonlint: {
             configFiles: {
-                src: ['bower.json', 'package.json', '.jshintrc',]
+                src: ['bower.json', 'package.json', '.jshintrc']
             }
+        },
+
+        'gh-pages': {
+            options: {
+                base: 'src'
+            },
+            // These files will get pushed to the `gh-pages` branch (the default). 
+            src: ['lawsuits.html', 'styles.css']
         }
     });
 
     // Default task.
-    grunt.registerTask('default', ['jshint', 'jsonlint']);
+    grunt.registerTask('default', ['jshint', 'jsonlint', 'travis-lint', 'gh-pages']);
 };
