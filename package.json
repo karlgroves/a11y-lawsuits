@@ -1,7 +1,7 @@
 {
   "name": "a11y-lawsuits",
   "version": "1.0.0",
-  "description": "Demo of using Grunt with Tenon.io",
+  "description": "List of HTML lawsuits",
   "keywords": [
     "accessibility"
   ],
