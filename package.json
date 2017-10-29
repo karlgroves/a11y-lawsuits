@@ -1,35 +1,44 @@
 {
-  "name": "a11y-lawsuits",
-  "version": "1.0.0",
-  "description": "List of HTML lawsuits",
-  "keywords": [
-    "accessibility"
-  ],
-  "homepage": "https://github.com/karlgroves/a11y-lawsuits",
-  "bugs": "https://github.com/karlgroves/a11y-lawsuits/issues",
-  "author": {
-    "name": "Karl Groves",
-    "email": "karlgroves@gmail.com",
-    "url": "https://github.com/karlgroves"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:karlgroves/a11y-lawsuits.git"
-  },
-  "licenses": [
-    {
-      "type": "MIT"
+    "name": "a11y-lawsuits",
+    "version": "1.0.0",
+    "description": "List of HTML lawsuits",
+    "keywords": [
+        "accessibility"
+    ],
+    "homepage": "https://github.com/karlgroves/a11y-lawsuits",
+    "bugs": "https://github.com/karlgroves/a11y-lawsuits/issues",
+    "author": {
+        "name": "Karl Groves",
+        "email": "karlgroves@gmail.com",
+        "url": "https://github.com/karlgroves"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:karlgroves/a11y-lawsuits.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-contrib-clean": "^1.1.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-jshint": "^0.11.3",
+        "grunt-convert": "^0.1.12",
+        "grunt-gh-pages": "^2.0.0",
+        "grunt-jsonlint": "^1.0.7",
+        "grunt-travis-lint": "0.0.3",
+        "jshint-stylish": "^2.1.0",
+        "load-grunt-tasks": "^3.4.0",
+        "time-grunt": "^1.3.0"
+    },
+    "scripts": {
+        "test": "grunt lint",
+        "postinstall": "grunt build"
+    },
+    "dependencies": {
+        "autolinker": "^1.4.4"
     }
-  ],
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-convert": "^0.1.12",
-    "grunt-gh-pages": "^2.0.0",
-    "grunt-jsonlint": "^1.0.7",
-    "grunt-travis-lint": "0.0.3",
-    "jshint-stylish": "^2.1.0",
-    "load-grunt-tasks": "^3.4.0",
-    "time-grunt": "^1.3.0"
-  }
 }
