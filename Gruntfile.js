@@ -65,10 +65,10 @@ module.exports = function (grunt) {
 
         'gh-pages': {
             options: {
-                base: 'src'
+                base: 'dist'
             },
             // These files will get pushed to the `gh-pages` branch (the default).
-            src: ['dist/*']
+            src: ['**']
         }
     });
 
