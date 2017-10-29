@@ -13,6 +13,7 @@ node_modules
 .idea/workspace.xml
 atlassian-ide-plugin.xml
 .settings
+dist/*
 
 ### vim ###
 [._]*.s[a-w][a-z]
