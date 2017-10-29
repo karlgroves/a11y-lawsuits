@@ -14,6 +14,35 @@ module.exports = function (grunt) {
 
         datetime: Date.now(),
 
+        clean: ['dist'],
+
+        copy: {
+            main: {
+                expand: true,
+                cwd: 'src/',
+                src: '**',
+                dest: 'dist/'
+            },
+
+            // copy autolinker
+            autolinker: {
+                expand: true,
+                cwd: 'node_modules/autolinker/',
+                src: 'dist/Autolinker.min.js',
+                dest: ''
+            }
+        },
+
+        convert: {
+            options: {
+                explicitArray: false
+            },
+            csv2json: {
+                src: ['src/lawsuits.csv'],
+                dest: 'dist/lawsuits.json'
+            }
+        },
+
         /* Run JSHint on our JS files */
         jshint: {
             options: {
@@ -30,7 +59,7 @@ module.exports = function (grunt) {
         /* Run JSONLint on our configuration files */
         jsonlint: {
             configFiles: {
-                src: ['bower.json', 'package.json', '.jshintrc']
+                src: ['package.json', '.jshintrc']
             }
         },
 
@@ -38,11 +67,17 @@ module.exports = function (grunt) {
             options: {
                 base: 'src'
             },
-            // These files will get pushed to the `gh-pages` branch (the default). 
-            src: ['lawsuits.html', 'styles.css']
+            // These files will get pushed to the `gh-pages` branch (the default).
+            src: ['dist/*']
         }
     });
 
     // Default task.
-    grunt.registerTask('default', ['jshint', 'jsonlint', 'travis-lint', 'gh-pages']);
+
+    grunt.registerTask('lint', ['jshint', 'jsonlint', 'travis-lint']);
+
+    grunt.registerTask('build', ['clean', 'copy', 'convert']);
+
+    grunt.registerTask('release', ['gh-pages']);
+
 };
