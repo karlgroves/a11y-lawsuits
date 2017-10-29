@@ -18,14 +18,11 @@ td, th {
     border-bottom: 1px solid #aaa;
 }
 
-thead th {
+th {
     font-weight: bold;
 }
 
-tbody th {
-    font-weight: normal;
-}
 
-tbody tr:nth-child(odd) {
+tr:nth-child(odd) {
     background-color: #eee;
 }
