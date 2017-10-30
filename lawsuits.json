@@ -1112,7 +1112,7 @@
   {
     "Year": "2014",
     "Plaintiff(s)": "State of New York",
-    "Defendant(s)": "�TD Bank, Capital One, M&T Bank, New York Community Bank, Valley National Bank, Ponce de Leon Federal Bank, Emigrant Savings Bank, Banco Popular, Dime Savings Bank, Flushing Savings Bank, Northfield Savings, and Hudson Valley Bank.",
+    "Defendant(s)": "_TD Bank, Capital One, M&T Bank, New York Community Bank, Valley National Bank, Ponce de Leon Federal Bank, Emigrant Savings Bank, Banco Popular, Dime Savings Bank, Flushing Savings Bank, Northfield Savings, and Hudson Valley Bank.",
     "Citation": "http://ocfs.ny.gov/main/view_article.asp?ID=779"
   },
   {
@@ -1452,9 +1452,93 @@
     "Citation": "http://www.ada.gov/yakima_co_pca/yakima_sa.html"
   },
   {
+    "Year": "2015",
+    "Plaintiff(s)": "Jahoda",
+    "Defendant(s)": "Foot Locker",
+    "Citation": "Case 2:15-cv-01000"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Gross et al",
+    "Defendant(s)": "VF Corporation",
+    "Citation": "Case 2:15-cv-01172"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Williams-Sonoma",
+    "Citation": "Case 2:15-cv-01675"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Gross et al",
+    "Defendant(s)": "Ascena Retail Group",
+    "Citation": "Case 2:15-cv-01214"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Fry's Electronics",
+    "Citation": "Case 2:15-cv-01630"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Estee Lauder",
+    "Citation": "Case 2:15-cv-01571"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Adidas America ",
+    "Citation": "Case 2:15-cv-01631"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Patagonia",
+    "Citation": "Case 2:15-cv-01641"
+  },
+  {
+    "Year": "2015",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Aeropostale Inc.",
+    "Citation": "Case 2:15-cv-01640"
+  },
+  {
+    "Year": "2016",
+    "Plaintiff(s)": "Guimares",
+    "Defendant(s)": "Dicks Sporting Goods",
+    "Citation": "Case 2:16-cv-00641-AJS"
+  },
+  {
+    "Year": "2016",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Harbor Freight",
+    "Citation": "Case 2:16-cv-00314"
+  },
+  {
+    "Year": "2016",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "Deckers Outdoor",
+    "Citation": "Case 2:16-cv-00164"
+  },
+  {
+    "Year": "2016",
+    "Plaintiff(s)": "Sipe et al",
+    "Defendant(s)": "American Casino and Entertainment",
+    "Citation": "Case 2:16-cv-00124"
+  },
+  {
     "Year": "2017",
-    "Plaintiff(s)": "Juan Carlos Gil",
+    "Plaintiff(s)": "Beckman",
     "Defendant(s)": "Winn-Dixie",
     "Citation": "http://www.lflegal.com/2017/06/winn-dixie/"
+  },
+  {
+    "Year": "2017",
+    "Plaintiff(s)": "NFB ",
+    "Defendant(s)": "Greyhound Lines and Firstgroup America�",
+    "Citation": "Case No. 3:17-cv-3368"
   }
 ]
