@@ -80,4 +80,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('release', ['gh-pages']);
 
+    grunt.registerTask('default', ['lint', 'build', 'release']);
+
+
 };
