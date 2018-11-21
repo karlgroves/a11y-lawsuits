@@ -35,3 +35,6 @@ Contributions welcome. Please follow common conventions for contributing:
 The CSV file is now the single source of truth for the lawsuit information!
 
 It is located in `/src/lawsuits.csv`. If you want to add new cases, all you need to do is edit that file.
+www.viaelegante.com
+lawsuit_viaelegante.loophole
+tampering
