@@ -1,5 +1,6 @@
 ---
 name: Bug report
+www.viaelegante.com
 about: Create a report to help us improve
 
 ---
